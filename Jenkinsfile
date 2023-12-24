@@ -16,10 +16,5 @@ pipeline{
 			 archiveArtifacts artifacts: 'target/*.war'
 			}
 		}
-		stage('Monitoring'){
-			steps{
-			 echo "Being monitored by prometheus"
-			}
-		}
 	}
 }
