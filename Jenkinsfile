@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('gitcheckout'){
 		  steps{
-			git 'https://github.com/aithalias/java_repo1.git'
+			git branch: 'dev', url: 'https://github.com/aithalias/java_repo1.git'
 		    }
 		}
 		stage('build'){
