@@ -18,7 +18,7 @@ pipeline{
 		}
 		stage('Monitoring'){
 			steps{
-			 echo "Being monitored by prometheus"
+			 echo "Being monitored by prometheus and graffana"
 			}
 		}
 	}
