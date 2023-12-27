@@ -1,8 +1,5 @@
 pipeline{
     agent none
-	triggers {cron '''H H * * *'''
-			  pollSCM '*/5 * * * *'
-			  }
 	environment{
 	 STAGE_ONE = 'SCM_checkout'
 	 STAGE_TWO = 'code_analysis'
