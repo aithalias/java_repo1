@@ -1,6 +1,6 @@
 pipeline{
     agent none
-    	environment{
+    	environmen{
 	 STAGE_ONE = 'SCM_checkout'
 	 STAGE_TWO = 'code_analysis'
 	 STAGE_THREE = 'maven_build'
