@@ -1,5 +1,4 @@
 FROM maven:amazoncorretto as build
-LABEL maintainer=""
 WORKDIR /javaapp
 COPY . .
 RUN mvn clean install
