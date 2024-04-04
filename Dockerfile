@@ -1,5 +1,5 @@
 FROM maven:amazoncorretto as build
-WORKDIR /javaapps
+WORKDIR /javaapp
 COPY . .
 RUN mvn clean install
 
