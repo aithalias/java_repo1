@@ -1,5 +1,5 @@
 pipeline{
-	agent {label 'agent2'}
+	agent {labe 'agent2'}
 	stages{
 		stage('gitcheckout'){
 		  steps{
